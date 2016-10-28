@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+        <script src="angular.js"></script>
+    </head>
+    <body ng-controller="RandomController">
+        <h1>Hello friend.</h1>
+        <table border="1">
+            <tr>
+                <th>
+                    Rnd#
+                </th>
+                <th>
+                    Rnd$
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    {{randomNumber}}
+                </td>
+                <td>
+                    {{randomString}}
+                </td>
+            </tr>
+        </table>
+
+
+    </body>
+</html>
